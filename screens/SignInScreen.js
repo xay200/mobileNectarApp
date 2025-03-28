@@ -63,16 +63,18 @@ const styles = StyleSheet.create({
     padding: 20,
   },
   imageContainer: {
-    width: 413.36627197265625,
-    height: 280,
+    width: 613.36627197265625,
+    height: 325,
     overflow: 'hidden',
     justifyContent: 'center',
     alignItems: 'center',
   },
 
   headerImage: {
-    width: 927.3545158678589,
-    height: 618.3118647421973,
+    top: -80,
+    left: 30,
+    width: 727.3545158678589,
+    height: 418.3118647421973,
     resizeMode: 'cover',
     transform: [{ rotate: '-141.29deg' }],
   },

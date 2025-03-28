@@ -5,7 +5,7 @@ const OnboardingScreen = ({ navigation }) => {
   return (
     <ImageBackground 
       source={require('../assets/onboarding-bg.jpg')} 
-      style={{ flex: 1, justifyContent: 'flex-end', alignItems: 'center', paddingBottom: 50 }}
+      style={{ flex: 1, justifyContent: 'flex-end', alignItems: 'center',  position: 'absolute', width: '100%', height: '100%'  }}
     >
       <View style={{ alignItems: 'center', padding: 20, borderRadius: 10, width: '90%' }}>
       <Image 
